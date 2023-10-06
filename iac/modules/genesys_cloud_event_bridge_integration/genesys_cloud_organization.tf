@@ -1,1 +1,1 @@
-data "genesyscloud_organizations_me" "genesys_cloud_org" {}
+data "genesyscloud_organizations_me" "current" {}
