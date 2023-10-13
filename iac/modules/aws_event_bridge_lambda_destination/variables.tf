@@ -17,11 +17,11 @@ variable "event_source_suffix" {
 variable "lambda" {
   type = object({
     function_name = string
-    arn = string
+    arn           = string
   })
 
   default = {
     function_name = "test-function"
-    arn = "arn:aws:lambda:us-east-1:424665266771:function:test-function"
+    arn           = "arn:aws:lambda:us-east-1:424665266771:function:test-function"
   }
 }

@@ -1,5 +1,5 @@
 variable "integration_name" {
-  type    = string
+  type = string
 }
 
 variable "topic_filters" {
