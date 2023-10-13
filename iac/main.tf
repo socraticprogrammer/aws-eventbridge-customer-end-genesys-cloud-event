@@ -18,5 +18,5 @@ module "aws_event_bridge_lambda_destination" {
   aws_account_id       = module.aws_account_identity.account_id
   aws_account_region   = var.aws_account_region
   event_source_suffix  = var.event_source_suffix
-
+  depends_on = [ module.genesys_cloud_event_bridge_integration ]
 }
